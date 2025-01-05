@@ -12,6 +12,7 @@ from .utils import fetch_all_rows_from_api
 
 import requests
 import pandas as pd
+from google.cloud.bigquery import LoadJobConfig
 
 hdb_resale_transactions_2015_2016 = AssetSpec(
     key="hdb_resale_transactions_2015_2016",
@@ -42,9 +43,11 @@ def hdb_resale_transactions_2017_onwards(context: AssetExecutionContext, bigquer
     # Load to BigQuery
     table_name = HDB_TRANS_2017_ONWARDS_TABLE_NAME
     with bigquery.get_client() as client:
+        job_config = LoadJobConfig(write_disposition="WRITE_TRUNCATE")
         job = client.load_table_from_dataframe(
             dataframe=df,
             destination=table_name,
+            job_config=job_config
         )
         job.result()
     

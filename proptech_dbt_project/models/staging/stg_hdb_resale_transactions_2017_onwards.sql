@@ -22,7 +22,7 @@ WITH source AS (
             storey_range, '_', floor_area_sqm, '_', flat_model, '_', lease_commence_date,
             '_', remaining_lease, '_', resale_price
         ) as concat_columns
-    FROM {{ source('property_trans', 'hdb_resale_transactions_2017_onwards_') }}
+    FROM {{ source('property_trans', 'hdb_resale_transactions_2017_onwards') }}
 )
 
 SELECT 
