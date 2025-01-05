@@ -1,3 +1,4 @@
 dbt-bigquery==1.9.0
 dagster-dbt==0.25.6
 dagster-webserver==1.9.6
+dagster-gcp==0.25.6

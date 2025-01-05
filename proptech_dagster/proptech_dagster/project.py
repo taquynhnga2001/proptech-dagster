@@ -7,3 +7,5 @@ proptech_dbt_project = DbtProject(
     packaged_project_dir=Path(__file__).joinpath("..", "..", "dbt-project").resolve(),
 )
 proptech_dbt_project.prepare_if_dev()
+
+bigquery_project_id = "sg-proptech"
