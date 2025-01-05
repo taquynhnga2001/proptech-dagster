@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 
+
 def fetch_all_rows_from_api(dataset_id):
     url = "https://data.gov.sg/api/action/datastore_search"
     limit = 10000  # Adjust based on the API's max limit

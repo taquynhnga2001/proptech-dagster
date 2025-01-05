@@ -24,16 +24,6 @@ hdb_resale_transactions_2015_2016 = AssetSpec(
     },
 )
 
-# hdb_resale_transactions_2017_onwards = AssetSpec(
-#     key="hdb_resale_transactions_2017_onwards",    # Unique identifier for the asset
-#     group_name="bigquery_sources",              # Optional, group assets logically
-#     description="Manually uploaded table resale transactions from 2017 onwards",
-#     metadata={
-#         "dataset": "dl_property_transactions",
-#         "table": "hdb_resale_transactions_2017_onwards",
-#     },
-# )
-
 
 @asset(
     kinds={"python", "bigquery"},
