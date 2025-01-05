@@ -1,0 +1,13 @@
+proptech_dbt_project:
+  outputs:
+    dev:
+      dataset: dbt_hanna
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: asia-southeast1
+      method: oauth
+      priority: interactive
+      project: sg-proptech
+      threads: 1
+      type: bigquery
+  target: dev

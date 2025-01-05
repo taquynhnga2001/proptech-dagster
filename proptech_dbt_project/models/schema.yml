@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_hdb_resale_transactions_2015-2016
+    description: Cleaned table of HDB resale transactions from 2015-2016.
+
+  - name: stg_hdb_resale_transactions_2017_onwards
+    description: Cleaned and increment table of HDB resale transactions from 2017 onwards
+ 
+  - name: dwh_hdb_resale_transactions
+    description: Concatenated table of all HDB resale transactions from 2015 onwards
