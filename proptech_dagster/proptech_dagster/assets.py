@@ -16,7 +16,7 @@ from google.cloud.bigquery import LoadJobConfig
 
 hdb_resale_transactions_2015_2016 = AssetSpec(
     key="hdb_resale_transactions_2015_2016",
-    group_name="bigquery_sources",              
+    group_name="raw_sources",              
     description="Manually uploaded table for 2015-2016 resale transactions",
     kinds={"bigquery"},
     metadata={
@@ -28,7 +28,7 @@ hdb_resale_transactions_2015_2016 = AssetSpec(
 
 @asset(
     kinds={"python", "bigquery"},
-    group_name="bigquery_sources",
+    group_name="raw_sources",
 )
 def hdb_resale_transactions_2017_onwards(context: AssetExecutionContext, bigquery: BigQueryResource):
     """Fetch data from API and load it into BigQuery."""
