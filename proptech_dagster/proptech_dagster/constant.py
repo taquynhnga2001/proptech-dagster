@@ -1,0 +1,3 @@
+HDB_TRANS_2017_ONWARDS_API_DATASET_ID = "d_8b84c4ee58e3cfc0ece0d773c8ca6abc"
+HDB_TRANS_2017_ONWARDS_API_URL = f"https://data.gov.sg/api/action/datastore_search?resource_id={HDB_TRANS_2017_ONWARDS_API_DATASET_ID}"
+HDB_TRANS_2017_ONWARDS_TABLE_NAME = "dl_property_transactions.hdb_resale_transactions_2017_onwards_"

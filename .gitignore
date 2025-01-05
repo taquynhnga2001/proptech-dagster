@@ -2,6 +2,7 @@ proptech_dbt_project/target/
 proptech_dbt_project/dbt_packages/
 proptech_dbt_project/logs/
 
-proptech_dagster/tmpnxaxgwab
+proptech_dagster/tmp*
+proptech_dagster/proptech_dagster/test.ipynb
 
 logs

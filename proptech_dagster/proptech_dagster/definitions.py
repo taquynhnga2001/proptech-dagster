@@ -3,7 +3,11 @@ from dagster import Definitions
 from dagster_dbt import DbtCliResource
 from dagster_gcp import BigQueryResource
 
-from .assets import proptech_dbt_assets, hdb_resale_transactions_2015_2016, hdb_resale_transactions_2017_onwards
+from .assets import (
+    proptech_dbt_assets, 
+    hdb_resale_transactions_2015_2016, 
+    hdb_resale_transactions_2017_onwards
+)
 from .project import proptech_dbt_project
 from .schedules import schedules
 from .resources import bigquery_resource
