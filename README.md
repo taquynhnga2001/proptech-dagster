@@ -1,4 +1,4 @@
-# ELT pippline with Dagster and dbt
+# ELT pipeline with Dagster and dbt
 
 ## Project Overview
 
