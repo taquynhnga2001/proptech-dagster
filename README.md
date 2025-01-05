@@ -2,13 +2,14 @@
 
 ## Project Overview
 
-This project leverages **[Dagster](https://dagster.io/)** and **[dbt](https://www.getdbt.com/)** to build an ELT pipeline that orchestrate and transform real estate data, specifically HDB resale transactions in Singapore. The goal of the project is to automate the data pipeline from raw data collection, transformation, and final storage in BigQuery for reporting and analytics.
+This project leverages **[Dagster](https://dagster.io/)** and **[dbt](https://www.getdbt.com/)** to build an ELT pipeline that orchestrate and transform real estate data, specifically HDB resale transactions in Singapore. The goal of the project is to automate the data pipeline from raw data collection, transformation, integration, and final storage in BigQuery for reporting and analytics.
 
 Below is a visualization of the data lineage for the project, showing how data flows from raw sources to the final data warehouse for reporting.
 
 ![Dagster Data Lineage Overview](dagster_assets_overview.png)
 
 **Tech Stack**: Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo" width="15" height="15"/>, SQL <img src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" alt="Python Logo" width="15" height="15"/>, dbt <img src="https://images.seeklogo.com/logo-png/43/2/dbt-logo-png_seeklogo-431111.png?v=1957187137577124544" width="15" height="15"/>, Dagster <img src="https://dagster.io/images/brand/logos/dagster-primary-mark.jpg" alt="Python Logo" width="15" height="15"/>
+
 **Skills**: Data warehousing, Data orchestration, Data integration and transformation
 
 ### **Project Structure**
