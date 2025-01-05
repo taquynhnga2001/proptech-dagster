@@ -4,5 +4,6 @@ proptech_dbt_project/logs/
 
 proptech_dagster/tmp*
 proptech_dagster/proptech_dagster/test.ipynb
+proptech_dagster/proptech_dagster/__pycache__/
 
 logs
