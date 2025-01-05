@@ -59,5 +59,6 @@ The project is divided into multiple stages:
 
 - **Deploy on Cloud Server**: Host the project on a cloud server for better scalability and manageability.
 - **Advanced Analytics**: Integrate the data with advanced analytics platforms such as **Power BI** or **Looker** to create insightful dashboards.
+- **Add sale transactions of Condo**: Another workflow for Condominium sale transactions.
 
 ---
