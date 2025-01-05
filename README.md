@@ -1,8 +1,8 @@
-# PropTech Dagster DBT Integration
+# ELT pippline with Dagster and dbt
 
 ## Project Overview
 
-This project leverages **[Dagster](https://dagster.io/)** and **[dbt](https://www.getdbt.com/)** to build an ELT pipeline that orchestrate and transform real estate data, specifically HDB resale transactions in Singapore. The goal of the project is to automate the data pipeline from raw data collection, transformation, integration, and final storage in BigQuery for reporting and analytics.
+This project leverages **[Dagster](https://dagster.io/)** and **[dbt](https://www.getdbt.com/)** to build an ELT pipeline that orchestrate and transform real estate data, specifically **HDB resale transactions** in Singapore. The goal of the project is to automate the data pipeline from raw data collection, transformation, integration, and final storage in BigQuery for reporting and analytics.
 
 Below is a visualization of the data lineage for the project, showing how data flows from raw sources to the final data warehouse for reporting.
 
