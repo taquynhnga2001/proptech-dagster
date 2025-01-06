@@ -6,9 +6,9 @@ This project leverages **[Dagster](https://dagster.io/)** and **[dbt](https://ww
 
 Below is a visualization of the data lineage for the project, showing how data flows from raw sources to the final data warehouse for reporting.
 
-![Dagster Data Lineage Overview](dagster_assets_overview.png)
+![Dagster Data Lineage Overview](demo_images/dagster_assets_overview.png)
 
-**Tech Stack**: Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo" width="15" height="15"/>, SQL <img src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" alt="Python Logo" width="15" height="15"/>, dbt <img src="https://images.seeklogo.com/logo-png/43/2/dbt-logo-png_seeklogo-431111.png?v=1957187137577124544" width="15" height="15"/>, Dagster <img src="https://dagster.io/images/brand/logos/dagster-primary-mark.jpg" alt="Python Logo" width="15" height="15"/>
+**Tech Stack**: Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo" width="15" height="15"/>, SQL <img src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" alt="Python Logo" width="15" height="15"/>, dbt <img src="https://images.seeklogo.com/logo-png/43/2/dbt-logo-png_seeklogo-431111.png?v=1957187137577124544" width="15" height="15"/>, Dagster <img src="https://dagster.io/images/brand/logos/dagster-primary-mark.jpg" alt="Python Logo" width="15" height="15"/>, PowerBI <img src="https://cdn3d.iconscout.com/3d/premium/thumb/microsoft-power-bi-3d-icon-download-in-png-blend-fbx-gltf-file-formats--logo-analytics-data-visualization-office-pack-appliances-icons-8500319.png" alt="PowerBI Logo" width="15" height="15"/>
 
 **Skills**: Data warehousing, Data orchestration, Data transformation and integration
 
@@ -30,6 +30,22 @@ The project is divided into multiple stages:
 3. **Dagster Orchestration**:
    - Dagster orchestrates the entire pipeline. It ensures that data is loaded, transformed, and scheduled according to the defined schedule:
      - **Weekly Schedule**: Every Wednesday at midnight, the `materialize_all` job runs to refresh the DBT models and load the latest data.
+
+
+### Analytics layer: Power BI Dashboard
+The Power BI Dashboard is designed to explore and analyze HDB resale transactions in Singapore from 2015 to 2024, leveraging the final table `dwh_hdb_resale_transactions` for insights. It provides an interactive, user-friendly interface to uncover trends, compare attributes, and gain valuable insights into the resale market.
+
+Overview page:
+![Overview](demo_images/power_bi_1_overview.png)
+
+Price Trend page:
+![Overview](demo_images/power_bi_2_price_trend.png)
+
+Geospatial Analysis page:
+![Overview](demo_images/power_bi_3_map.png)
+
+Price Distribution page:
+![Overview](demo_images/power_bi_4_price_distribution.png)
 
 ---
 
@@ -58,7 +74,7 @@ The project is divided into multiple stages:
 ## **Future Work**
 
 - **Deploy on Cloud Server**: Host the project on a cloud server for better scalability and manageability.
-- **Advanced Analytics**: Integrate the data with advanced analytics platforms such as **Power BI** or **Looker** to create insightful dashboards.
+- **Advanced Analytics**: Integrate the data with advanced analytics platforms such as **Power BI** or **Looker** and create more insightful dashboards.
 - **Add sale transactions of Condo**: Another workflow for Condominium sale transactions.
 
 ---
