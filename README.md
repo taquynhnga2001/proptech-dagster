@@ -1,4 +1,4 @@
-# ELT pipeline with Dagster and dbt
+# End-to-End Data Pipeline with Dagster, dbt, and Power BI
 
 ## Project Overview
 
