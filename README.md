@@ -10,7 +10,7 @@ Below is a visualization of the data lineage for the project, showing how data f
 
 **Tech Stack**: Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo" width="15" height="15"/>, SQL <img src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" alt="Python Logo" width="15" height="15"/>, dbt <img src="https://images.seeklogo.com/logo-png/43/2/dbt-logo-png_seeklogo-431111.png?v=1957187137577124544" width="15" height="15"/>, Dagster <img src="https://dagster.io/images/brand/logos/dagster-primary-mark.jpg" alt="Python Logo" width="15" height="15"/>, PowerBI <img src="https://cdn3d.iconscout.com/3d/premium/thumb/microsoft-power-bi-3d-icon-download-in-png-blend-fbx-gltf-file-formats--logo-analytics-data-visualization-office-pack-appliances-icons-8500319.png" alt="PowerBI Logo" width="15" height="15"/>
 
-**Skills**: Data warehousing, Data orchestration, Data transformation and integration, Data visualization
+**Skills**: Data warehousing, Data orchestration, transformation and integration, visualization
 
 ### **Project Structure**
 
